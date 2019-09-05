@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2aa2bbb4-86b0-4803-9324-03e039659d4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/commands/ChangePriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands/CreateFeedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/contracts/CommentsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/factories/CommentsFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/comments/Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/contracts/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WIM/META-INF/WIM.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WIM/META-INF/WIM.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/WIM/META-INF/WIM.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/AddCommentToWorkitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/AddCommentToWorkitem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/AddPersonToTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/AddPersonToTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/AssignWorkitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/AssignWorkitem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ChangeBugPriority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ChangeBugStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ChangeStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ChangeFeedbackRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ChangeFeedbackRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ChangeFeedbackStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ChangeStoryPriority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ChangeStorySize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ChangeStorySize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CommandConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CommandConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CreateNewBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CreateNewBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CreateNewBugInABoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CreateBug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CreateNewFeedbackInABoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CreateNewStoryInABoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CreateStory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CreateNewTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/CreateNewTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Facility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/FilterBugs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/FilterBugs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/FilterByAssignee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/FilterByAssignee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/FilterByStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/FilterByStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/FilterByStatusAndAssignee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/FilterByStatusAndAssignee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/FilterFeedbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/FilterFeedbacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/FilterStories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/FilterStories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ListAllWorkitems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ListAllWorkitems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ShowAllTeamMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/ShowAllTeamMembers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/SortByPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/SortByPriority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/SortByTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/SortByTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/enums/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/enums/CommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/EngineImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/EngineImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/WorkitemRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/WorkitemRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/contracts/WorkitemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/contracts/WorkitemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/factories/CommandFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/factories/CommandFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/BugImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/BugImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/BugStoryBaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/BugStoryBaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/FeedbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/FeedbackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/MemberBoardBaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/MemberBoardBaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/StoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/StoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/WorkitemImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/WorkitemImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/common/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/common/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/contracts/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/contracts/Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/contracts/Workitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/contracts/Workitem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wim.tests/commands/CreateNewTeam_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/wim.tests/commands/CreateNewTeam_Tests.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1PolzV1UPbwQe6Kx2Xuyu3ifUbv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workitemsmanagementproject/WorkItemsManagement" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Startup">
+    <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Startup" />
+      <module name="WIM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in WIM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WIM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateNewTeam_Tests.execute_should_throwException_when_passedLessArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="commands" />
+      <option name="MAIN_CLASS_NAME" value="commands.CreateNewTeam_Tests" />
+      <option name="METHOD_NAME" value="execute_should_throwException_when_passedLessArguments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateNewTeam_Tests.execute_should_throwException_when_passedMoreArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="commands" />
+      <option name="MAIN_CLASS_NAME" value="commands.CreateNewTeam_Tests" />
+      <option name="METHOD_NAME" value="execute_should_throwException_when_passedMoreArguments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeedbackImpl_Tests.throwWhenRatingIsMoreThanMaxValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.FeedbackImpl_Tests" />
+      <option name="METHOD_NAME" value="throwWhenRatingIsMoreThanMaxValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Startup" />
+        <item itemvalue="JUnit.CreateNewTeam_Tests.execute_should_throwException_when_passedMoreArguments" />
+        <item itemvalue="JUnit.CreateNewTeam_Tests.execute_should_throwException_when_passedLessArguments" />
+        <item itemvalue="JUnit.All in WIM" />
+        <item itemvalue="JUnit.FeedbackImpl_Tests.throwWhenRatingIsMoreThanMaxValue" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2aa2bbb4-86b0-4803-9324-03e039659d4d" name="Default Changelist" comment="" />
+      <created>1561981048880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561981048880</updated>
+      <workItem from="1566548597180" duration="55000" />
+      <workItem from="1566739705957" duration="104000" />
+      <workItem from="1566739970960" duration="467000" />
+      <workItem from="1566969475061" duration="3164000" />
+      <workItem from="1566974612335" duration="9974000" />
+      <workItem from="1566999284736" duration="96697000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add team, board, member interfaces">
+      <created>1561990610056</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561990610056</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented MemberBoardBase, Member, Board and add Validator class">
+      <created>1562058373244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562058373244</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implemented MemberBoardBase, Member, Board and add Validator class">
+      <created>1562065727701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562065727701</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add some changes">
+      <created>1562080568190</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562080568190</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add some changes">
+      <created>1562160508819</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562160508819</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implement CreateMember, and add some CommandConstants">
+      <created>1562241376943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562241376943</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implemented Workitems StatusType">
+      <created>1562244582221</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562244582221</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented Workitems PiorityType and SeverityType">
+      <created>1562250630769</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562250630769</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implemented Size Enum">
+      <created>1562251820680</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562251820680</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add CreateNewBoard Command">
+      <created>1562258107623</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562258107623</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Implement Common Interface for Bug and Story">
+      <created>1562306385008</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562306385008</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add some optimizations">
+      <created>1562328962264</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1562328962264</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feedback implementation">
+      <created>1562336225501</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562336225501</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fix some implementation details">
+      <created>1562426808223</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562426808223</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix some commands details">
+      <created>1562440258825</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562440258825</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Some temporary changes">
+      <created>1562479386181</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562479386181</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Implemented ShowAllPeople Command">
+      <created>1562494763942</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562494763943</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Some little changes">
+      <created>1562523318448</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1562523318448</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Put getWorkitems() to WorkitemsRepository">
+      <created>1562563033667</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1562563033667</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Eliminate all null validations">
+      <created>1562592059258</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1562592059258</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Some Changes">
+      <created>1562659186138</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1562659186138</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Some Changes">
+      <created>1562849952328</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1562849952328</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Some Changes">
+      <created>1562849987845</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1562849987845</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Cretae Interface Activity and implement it">
+      <created>1562914186382</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1562914186383</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Some final changes in commands">
+      <created>1562936192099</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1562936192099</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Implementations of the CreateNewBugInABoard, CreateNewStoryInABoard,  CreateNewFeedbackInABoard Commands and some little changes">
+      <created>1563025223888</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563025223888</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Create ChangeBugSeverity Command and implement BugStoryBase interface">
+      <created>1563115478195</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1563115478195</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Implement getId method">
+      <created>1563121070199</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1563121070199</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Create ChangeBugStatus Command">
+      <created>1563207237312</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1563207237312</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Replace all instanceOf with other logic">
+      <created>1563210486796</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1563210486796</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Create Command AssignWorkitem">
+      <created>1563307655822</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1563307655822</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Create Command UnassignWorkitem">
+      <created>1563317071955</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1563317071955</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Implement AddCommentToWorkitem Command">
+      <created>1563351261410</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1563351261410</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Implement ChangeFeedbackStatus Command">
+      <created>1563354092289</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1563354092289</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Implement ListAllWorkitems and FilterBugs Commands">
+      <created>1563359679666</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1563359679666</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Implement FilterSories and FilterFeedbacks Commands">
+      <created>1563365841776</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1563365841776</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Implement FilterByStatus, FilterByAssignee and FilterByStatusAndAssignee commands">
+      <created>1563446002235</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1563446002235</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Create BoardImpl, BugImpl, FeedbackImpl, StoryImpl and Memberimpl Tests">
+      <created>1563474655165</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1563474655165</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Create BoardImpl, BugImpl, FeedbackImpl, StoryImpl and Memberimpl Tests">
+      <created>1563541600761</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1563541600761</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add some optimizations" />
+    <MESSAGE value="Feedback implementation" />
+    <MESSAGE value="Fix some implementation details" />
+    <MESSAGE value="Fix some commands details" />
+    <MESSAGE value="Some temporary changes" />
+    <MESSAGE value="Implemented ShowAllPeople Command" />
+    <MESSAGE value="Some little changes" />
+    <MESSAGE value="Put getWorkitems() to WorkitemsRepository" />
+    <MESSAGE value="Eliminate all null validations" />
+    <MESSAGE value="Some Changes" />
+    <MESSAGE value="Cretae Interface Activity and implement it" />
+    <MESSAGE value="Some final changes in commands" />
+    <MESSAGE value="Implementations of the CreateNewBugInABoard, CreateNewStoryInABoard,  CreateNewFeedbackInABoard Commands and some little changes" />
+    <MESSAGE value="Create ChangeBugSeverity Command and implement BugStoryBase interface" />
+    <MESSAGE value="Implement getId method" />
+    <MESSAGE value="Create ChangeBugStatus Command" />
+    <MESSAGE value="Replace all instanceOf with other logic" />
+    <MESSAGE value="Create Command AssignWorkitem" />
+    <MESSAGE value="Create Command UnassignWorkitem" />
+    <MESSAGE value="Implement AddCommentToWorkitem Command" />
+    <MESSAGE value="Implement ChangeFeedbackStatus Command" />
+    <MESSAGE value="Implement ListAllWorkitems and FilterBugs Commands" />
+    <MESSAGE value="Implement FilterSories and FilterFeedbacks Commands" />
+    <MESSAGE value="Implement FilterByStatus, FilterByAssignee and FilterByStatusAndAssignee commands" />
+    <MESSAGE value="Create BoardImpl, BugImpl, FeedbackImpl, StoryImpl and Memberimpl Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create BoardImpl, BugImpl, FeedbackImpl, StoryImpl and Memberimpl Tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Startup.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Startup.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/commands/CreateNewBoard.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/commands/CreateNewBoard.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/core/factories/TeamFactoryImpl.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/core/TeamRepositoryImpl.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/commands/ShowAllTeams.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WIM$All_in_WIM.ic" NAME="All in WIM Coverage Results" MODIFIED="1564292151808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
